@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Practice</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./src/css/output.css" />
+</head>
+
+<body class="text-[#173A56] dark:text-white dark:bg-slate-800">
+  <header class="container max-2xl:px-16 max-sm:px-6">
+    <nav class="flex py-4 items-center justify-between">
+      <a class="text-2xl flex gap-2 font-bold" href="/">
+        <img class="w-8" src="./src/images/logo.svg" alt="logo" />
+        Product
+      </a>
+      <div class="flex items-center gap-10 ">
+        <ul id="nav" class="flex max-lg:hidden max-lg:shadow-lg z-50 gap-6 max-lg:fixed top-0 bottom-0 right-0 max-lg:flex-col max-lg:px-5 max-lg:w-[250px] max-lg:py-10 max-lg:border-l border-primary-500 max-lg:bg-slate-100 dark:bg-slate-800 dark:text-white">
+          <li>
+            <button class="text-2xl lg:hidden " id="close-nav">
+              <i class="fa fa-times select-none pointer-events-none"></i>
+            </button>
+          </li>
+          <li>
+            <a href="#"> Product </a>
+          </li>
+          <li>
+            <a href="#"> Customers </a>
+          </li>
+          <li>
+            <a href="#"> Pricing </a>
+          </li>
+          <li>
+            <a href="#"> Resources </a>
+          </li>
+          <li class="w-full sm:hidden gap-2 flex justify-center absolute bottom-0 left-0 p-3">
+            <a href="#" class="w-1/2 border-2 text-center rounded py-2 font-bold">
+              Sign In
+            </a>
+            <a href="#" class="w-1/2 bg-primary-500 text-center text-white rounded py-2 font-bold">
+              Sign Up
+            </a>
+          </li>
+        </ul>
+        <div class="flex items-center gap-4">
+          <a href="#" class="max-sm:hidden px-7 border-2 rounded py-2 font-bold">
+            Sign In
+          </a>
+          <a href="#" class="max-sm:hidden btn-primary">
+            Sign Up
+          </a>
+          <button id="dark" class="w-9 h-9 flex items-center justify-center rounded-full text-primary-500 text-xl bg-slate-200">
+            <i class="fa transform rotate-180 fa-circle-half-stroke"></i>
+          </button>
+          <button class="text-2xl lg:hidden" id="open-nav">
+            <i class="fa fa-bars select-none pointer-events-none"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="flex items-center justify-around max-[800px]:flex-col-reverse">
+      <div class="space-x-5 items-center ">
+        <h1 class="text-4xl max-w-[350px] ml-[20px]">Work at the speed of thought</h1>
+        <p class="max-w-[350px] mt-5 ml-0">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+        <div class="flex items-center gap-5 mt-11">
+          <button class="bg-primary-500 rounded text-white px-7 py-2">Get Started</button>
+          <button class="text-primary-500 space-x-1">
+            <i class="fa fa-play"></i>
+            Watch the Video
+          </button>
+        </div>
+      </div>
+      <div>
+        <img class="max-[800px]:h-[300px] max-w-[350px] " src="./src/images/hero.png" alt="hero" width="600px" height="555px" />
+      </div>
+    </div>
+  </header>
+
+  <main class="min-h-[70vh]">
+    <div class="flex flex-col gap-9">
+      <div class="container max-2xl:px-16 max-sm:px-6  flex justify-center">
+        <h3 class="font-semibold text-3xl text-center  w-[450px] mt-28">
+          Product was Built Specifically
+          for You
+        </h3>
+      </div>
+      <div class="flex justify-around mt-[60px] max-w-[1300px] mx-auto max-lg:grid max-lg:grid-cols-2 max-[800px]:items-center  max-[500px]:grid-cols-1">
+        <div class="max-w-[240px] h-[178px] ">
+          <img class="mb-8" src="./src/images/icon1.png" alt="icon1" height="51px" width="51px">
+          <h2 class="font-semibold text-2xl">First click tests</h2>
+          <p class="max-w-[240px] h-[52px]">While most people enjoy casino gambling,</p>
+        </div>
+        <div>
+          <img class="mb-8" src="./src/images/icon2.png" alt="icon2" height="51px" width="51px">
+          <h2 class="font-semibold text-2xl">Design surveys</h2>
+          <p class="max-w-[240px] h-[52px]">Sports betting, lottery and bingo playing for the fun</p>
+        </div>
+        <div>
+          <img class="mb-8" src="./src/images/icon3.png" alt="icon3" height="51px" width="51px">
+          <h2 class="font-semibold text-2xl">Preference tests</h2>
+          <p class="max-w-[240px] h-[52px]">The Myspace page defines the individual.</p>
+        </div>
+        <div>
+          <img class="mb-8" src="./src/images/icon4.png" alt="icon4" height="51px" width="51px">
+          <h2 class="font-semibold text-2xl">Five second tests</h2>
+          <p class="max-w-[240px] h-[78px]">Personal choices and the overall personality of the person. </p>
+        </div>
+      </div>
+      <div class="flex justify-center ">
+        <button class="text-[16px] bg-[#02897A] rounded-[5px] w-[175px] h-[53px] text-white">SIGN UP NOW</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="container py-10 max-sm:px-5">
+    <div class="grid grid-cols-4 max-lg:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 gap-x-3 gap-y-6">
+      <div class="p-1">
+        <a class="text-2xl flex gap-2 font-bold" href="/">
+          <img class="w-8" src="./src/images/logo.svg" alt="logo" />
+          Product
+        </a>
+        <ul class="flex gap-5 mt-6">
+          <li>
+            <a href="https://instagram.com" class="w-10 h-10 flex justify-center items-center rounded-full text-2xl text-primary-500 bg-primary-200">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com" class="w-10 h-10 flex justify-center items-center rounded-full text-2xl text-primary-500 bg-primary-200">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com" class="w-10 h-10 flex justify-center items-center rounded-full text-2xl text-primary-500 bg-primary-200">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="p-1">
+        <h3 class="font-semibold text-xl">Resource</h3>
+        <ul class="mt-5 space-y-3">
+          <li>
+            <a href="#"> About Us </a>
+          </li>
+          <li>
+            <a href="#"> Blog </a>
+          </li>
+          <li>
+            <a href="#"> Contact </a>
+          </li>
+          <li>
+            <a href="#"> FAQ </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="p-1">
+        <h3 class="font-semibold text-xl">Legal Stuff</h3>
+        <ul class="mt-5 space-y-3">
+          <li>
+            <a href="#"> Disclaimer </a>
+          </li>
+          <li>
+            <a href="#"> Financing </a>
+          </li>
+          <li>
+            <a href="#"> Privacy Policy </a>
+          </li>
+          <li>
+            <a href="#"> Terms of Service </a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="max-lg:col-span-4 max-md:col-span-1 p-1">
+        <h3 class="font-semibold text-xl">knowing you're always on the best energy deal.</h3>
+        <input type="email" name="email" class="w-full border rounded focus:outline-primary-500 p-3 border-slate-400 shadow mt-8">
+        <button class="btn-primary mt-5">Sign up Now</button>
+      </form>
+    </div>
+    <p class="text-center mt-10">
+      Made With Love By Figmaland All Right Reserved
+    </p>
+  </footer>
+
+  <script src="./src/scripts/script.js"></script>
+</body>
+
+</html>
